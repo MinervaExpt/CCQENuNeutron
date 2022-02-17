@@ -1,0 +1,135 @@
+{
+//=========Macro generated from canvas: cNeutA/Neutron Angulars
+//=========  (Thu Jan 30 11:35:13 2020) by ROOT version5.34/36
+   TCanvas *cNeutA = new TCanvas("cNeutA", "Neutron Angulars",1,1,900,726);
+   gStyle->SetOptStat(0);
+   gStyle->SetOptTitle(0);
+   cNeutA->SetHighLightColor(2);
+   cNeutA->Range(-257.1429,-0.0789354,257.1429,0.4473672);
+   cNeutA->SetFillColor(0);
+   cNeutA->SetBorderMode(0);
+   cNeutA->SetBorderSize(2);
+   cNeutA->SetLeftMargin(0.15);
+   cNeutA->SetRightMargin(0.15);
+   cNeutA->SetBottomMargin(0.15);
+   cNeutA->SetFrameLineWidth(2);
+   cNeutA->SetFrameBorderMode(0);
+   cNeutA->SetFrameLineWidth(2);
+   cNeutA->SetFrameBorderMode(0);
+   Double_t xAxis374[19] = {-180, -125, -80, -55, -35, -25, -15, -10, -5, 0, 5, 10, 15, 25, 35, 55, 80, 125, 180}; 
+   
+   TH1D *h_tmp_err_errSum_4271__366 = new TH1D("h_tmp_err_errSum_4271__366","dthetaP:ptmu",18, xAxis374);
+   h_tmp_err_errSum_4271__366->SetMinimum(1e-05);
+   h_tmp_err_errSum_4271__366->SetMaximum(0.4);
+   h_tmp_err_errSum_4271__366->SetDirectory(0);
+   h_tmp_err_errSum_4271__366->SetStats(0);
+   h_tmp_err_errSum_4271__366->SetLineWidth(3);
+   h_tmp_err_errSum_4271__366->GetXaxis()->CenterTitle(true);
+   h_tmp_err_errSum_4271__366->GetXaxis()->SetNdivisions(509);
+   h_tmp_err_errSum_4271__366->GetXaxis()->SetLabelFont(42);
+   h_tmp_err_errSum_4271__366->GetXaxis()->SetLabelSize(0.05);
+   h_tmp_err_errSum_4271__366->GetXaxis()->SetTitleSize(0.06);
+   h_tmp_err_errSum_4271__366->GetXaxis()->SetTitleOffset(1.15);
+   h_tmp_err_errSum_4271__366->GetYaxis()->SetTitle("Fractional Uncertainty");
+   h_tmp_err_errSum_4271__366->GetYaxis()->SetLabelFont(42);
+   h_tmp_err_errSum_4271__366->GetYaxis()->SetLabelSize(0.05);
+   h_tmp_err_errSum_4271__366->GetYaxis()->SetTitleSize(0.06);
+   h_tmp_err_errSum_4271__366->GetYaxis()->SetTitleOffset(1.2);
+   h_tmp_err_errSum_4271__366->GetZaxis()->SetLabelFont(42);
+   h_tmp_err_errSum_4271__366->GetZaxis()->SetLabelSize(0.05);
+   h_tmp_err_errSum_4271__366->GetZaxis()->SetTitleSize(0.06);
+   h_tmp_err_errSum_4271__366->GetZaxis()->SetTitleOffset(0.75);
+   h_tmp_err_errSum_4271__366->Draw("HIST");
+   Double_t xAxis375[19] = {-180, -125, -80, -55, -35, -25, -15, -10, -5, 0, 5, 10, 15, 25, 35, 55, 80, 125, 180}; 
+   
+   TH1D *tmp_vertError_Flux__367 = new TH1D("tmp_vertError_Flux__367","h_dthetaP_ptmu_data_2track_weighted_nobck_micblob_projX_Flux",18, xAxis375);
+   tmp_vertError_Flux__367->SetBinContent(1,0.01823313);
+   tmp_vertError_Flux__367->SetBinContent(2,0.009534842);
+   tmp_vertError_Flux__367->SetBinContent(3,0.01005605);
+   tmp_vertError_Flux__367->SetBinContent(4,0.00948148);
+   tmp_vertError_Flux__367->SetBinContent(5,0.03690299);
+   tmp_vertError_Flux__367->SetBinContent(6,0.01604169);
+   tmp_vertError_Flux__367->SetBinContent(7,0.05619378);
+   tmp_vertError_Flux__367->SetBinContent(8,0.08110101);
+   tmp_vertError_Flux__367->SetBinContent(9,0.01066144);
+   tmp_vertError_Flux__367->SetBinContent(10,0.00915663);
+   tmp_vertError_Flux__367->SetBinContent(11,0.01682011);
+   tmp_vertError_Flux__367->SetBinContent(12,0.01777313);
+   tmp_vertError_Flux__367->SetBinContent(13,0.0336798);
+   tmp_vertError_Flux__367->SetBinContent(14,0.02372045);
+   tmp_vertError_Flux__367->SetBinContent(15,0.009516493);
+   tmp_vertError_Flux__367->SetBinContent(16,0.009864455);
+   tmp_vertError_Flux__367->SetBinContent(17,0.004337403);
+   tmp_vertError_Flux__367->SetBinContent(18,0.008003298);
+   tmp_vertError_Flux__367->SetEntries(20);
+   tmp_vertError_Flux__367->SetDirectory(0);
+   tmp_vertError_Flux__367->SetStats(0);
+
+   Int_t ci;      // for color index setting
+   TColor *color; // for color definition with alpha
+   ci = TColor::GetColor("#9966ff");
+   tmp_vertError_Flux__367->SetLineColor(ci);
+   tmp_vertError_Flux__367->SetLineWidth(3);
+   tmp_vertError_Flux__367->GetXaxis()->CenterTitle(true);
+   tmp_vertError_Flux__367->GetXaxis()->SetNdivisions(509);
+   tmp_vertError_Flux__367->GetXaxis()->SetLabelFont(42);
+   tmp_vertError_Flux__367->GetXaxis()->SetLabelSize(0.05);
+   tmp_vertError_Flux__367->GetXaxis()->SetTitleSize(0.06);
+   tmp_vertError_Flux__367->GetXaxis()->SetTitleOffset(1.15);
+   tmp_vertError_Flux__367->GetYaxis()->SetLabelFont(42);
+   tmp_vertError_Flux__367->GetYaxis()->SetLabelSize(0.05);
+   tmp_vertError_Flux__367->GetYaxis()->SetTitleSize(0.06);
+   tmp_vertError_Flux__367->GetYaxis()->SetTitleOffset(1.2);
+   tmp_vertError_Flux__367->GetZaxis()->SetLabelFont(42);
+   tmp_vertError_Flux__367->GetZaxis()->SetLabelSize(0.05);
+   tmp_vertError_Flux__367->GetZaxis()->SetTitleSize(0.06);
+   tmp_vertError_Flux__367->GetZaxis()->SetTitleOffset(0.75);
+   tmp_vertError_Flux__367->Draw("HIST SAME");
+   
+   TLegend *leg = new TLegend(0.18,0.85,0.38,0.89,NULL,"brNDC");
+   leg->SetBorderSize(0);
+   leg->SetTextFont(62);
+   leg->SetTextSize(0.04);
+   leg->SetLineColor(1);
+   leg->SetLineStyle(1);
+   leg->SetLineWidth(1);
+   leg->SetFillStyle(0);
+   TLegendEntry *entry=leg->AddEntry("tmp_vertError_Flux","Flux","l");
+
+   ci = TColor::GetColor("#9966ff");
+   entry->SetLineColor(ci);
+   entry->SetLineStyle(1);
+   entry->SetLineWidth(3);
+   entry->SetMarkerColor(1);
+   entry->SetMarkerStyle(21);
+   entry->SetMarkerSize(1);
+   entry->SetTextFont(62);
+   leg->Draw();
+   Double_t xAxis376[19] = {-180, -125, -80, -55, -35, -25, -15, -10, -5, 0, 5, 10, 15, 25, 35, 55, 80, 125, 180}; 
+   
+   TH1D *h_tmp_err_errSum_4271__368 = new TH1D("h_tmp_err_errSum_4271__368","dthetaP:ptmu",18, xAxis376);
+   h_tmp_err_errSum_4271__368->SetMinimum(1e-05);
+   h_tmp_err_errSum_4271__368->SetMaximum(0.4);
+   h_tmp_err_errSum_4271__368->SetDirectory(0);
+   h_tmp_err_errSum_4271__368->SetStats(0);
+   h_tmp_err_errSum_4271__368->SetLineWidth(3);
+   h_tmp_err_errSum_4271__368->GetXaxis()->CenterTitle(true);
+   h_tmp_err_errSum_4271__368->GetXaxis()->SetNdivisions(509);
+   h_tmp_err_errSum_4271__368->GetXaxis()->SetLabelFont(42);
+   h_tmp_err_errSum_4271__368->GetXaxis()->SetLabelSize(0.05);
+   h_tmp_err_errSum_4271__368->GetXaxis()->SetTitleSize(0.06);
+   h_tmp_err_errSum_4271__368->GetXaxis()->SetTitleOffset(1.15);
+   h_tmp_err_errSum_4271__368->GetYaxis()->SetTitle("Fractional Uncertainty");
+   h_tmp_err_errSum_4271__368->GetYaxis()->SetLabelFont(42);
+   h_tmp_err_errSum_4271__368->GetYaxis()->SetLabelSize(0.05);
+   h_tmp_err_errSum_4271__368->GetYaxis()->SetTitleSize(0.06);
+   h_tmp_err_errSum_4271__368->GetYaxis()->SetTitleOffset(1.2);
+   h_tmp_err_errSum_4271__368->GetZaxis()->SetLabelFont(42);
+   h_tmp_err_errSum_4271__368->GetZaxis()->SetLabelSize(0.05);
+   h_tmp_err_errSum_4271__368->GetZaxis()->SetTitleSize(0.06);
+   h_tmp_err_errSum_4271__368->GetZaxis()->SetTitleOffset(0.75);
+   h_tmp_err_errSum_4271__368->Draw("sameaxis");
+   cNeutA->Modified();
+   cNeutA->cd();
+   cNeutA->SetSelected(cNeutA);
+}

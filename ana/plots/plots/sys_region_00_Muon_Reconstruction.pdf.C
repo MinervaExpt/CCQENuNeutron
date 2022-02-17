@@ -1,0 +1,43 @@
+{
+//=========Macro generated from canvas: c/c
+//=========  (Sun Jun 28 01:52:20 2020) by ROOT version5.34/36
+   TCanvas *c = new TCanvas("c", "c",0,0,800,600);
+   gStyle->SetOptStat(0);
+   gStyle->SetOptTitle(0);
+   c->SetHighLightColor(2);
+   c->Range(0,0,1,1);
+   c->SetFillColor(0);
+   c->SetBorderMode(0);
+   c->SetBorderSize(2);
+   c->SetLogx();
+   c->SetLeftMargin(0.15);
+   c->SetRightMargin(0.15);
+   c->SetBottomMargin(0.15);
+   c->SetFrameLineWidth(2);
+   c->SetFrameBorderMode(0);
+   TLatex *   tex = new TLatex(0.33,0.94,"#Q^{2} #bulletErrors");
+tex->SetNDC();
+   tex->SetTextAlign(22);
+   tex->SetTextSize(0.025);
+   tex->SetLineWidth(2);
+   tex->Draw();
+      tex = new TLatex(0.18,0.8925,"MINER#nuA Preliminary");
+tex->SetNDC();
+   tex->SetTextAlign(13);
+   tex->SetTextColor(4);
+   tex->SetTextFont(112);
+   tex->SetTextSize(0.035);
+   tex->SetLineWidth(2);
+   tex->Draw();
+      tex = new TLatex(0.3,0.85,"Data POT: 7.03E+20");
+tex->SetNDC();
+   tex->SetTextAlign(22);
+   tex->SetTextColor(9);
+   tex->SetTextFont(42);
+   tex->SetTextSize(0.03);
+   tex->SetLineWidth(2);
+   tex->Draw();
+   c->Modified();
+   c->cd();
+   c->SetSelected(c);
+}
