@@ -1,0 +1,16 @@
+package CCQENuNeutron
+version ${MINERVA_RELEASE}
+
+#==============================================================================
+
+use CCQENu              v*   Ana
+
+#==============================================================================
+private
+
+set CCQENU_ANA "${CCQENUROOT}/ana_common"
+set MY_CCQENU "${CCQENUNEUTRONROOT}/ana"
+set CCQENU_INCLUDE_PATH "$(includes)"
+
+end_private
+
